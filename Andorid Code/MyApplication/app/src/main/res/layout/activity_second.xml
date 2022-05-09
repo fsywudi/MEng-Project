@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <View
+            android:id="@+id/v10"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v11"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v12"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v13"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v14"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block14"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v15"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow1"
+        app:layout_constraintVertical_bias="0.0">
+
+        <View
+            android:id="@+id/vs00"
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h10"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider178"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h11"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider180"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h12"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider182"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h13"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider184"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h14"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/vs05"
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow0"
+        app:layout_constraintVertical_bias="0.0">
+
+        <View
+            android:id="@+id/v00"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block00"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v01"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block01"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v02"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block02"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v03"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block03"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v04"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block04"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v05"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078">
+
+        <View
+            android:id="@+id/h05"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h00"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h06"
+            android:layout_width="5dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h01"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h07"
+            android:layout_width="5dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h02"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h08"
+            android:layout_width="5dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h03"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h09"
+            android:layout_width="5dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h04"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h010"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow7">
+
+        <View
+            android:id="@+id/vs30"
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h40"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider84"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h41"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider86"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h42"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider88"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h43"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider90"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h44"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/vs35"
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow3">
+
+        <View
+            android:id="@+id/vs10"
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h20"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider62"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h21"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider64"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h22"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider66"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h23"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider68"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h24"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/vs15"
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow4">
+
+        <View
+            android:id="@+id/v20"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block20"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v21"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block21"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v22"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block22"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v23"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block23"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v24"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v25"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow5">
+
+        <View
+            android:id="@+id/vs20"
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h30"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider29"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h31"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider31"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h32"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider33"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h33"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/divider35"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h34"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/vs25"
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow6">
+
+        <View
+            android:id="@+id/v30"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block30"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v31"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block31"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v32"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block32"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v33"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block33"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v34"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block34"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v35"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow8">
+
+        <View
+            android:id="@+id/v40"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block40"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v41"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block41"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v42"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block42"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v43"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block43"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v44"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/block44"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/v45"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow9">
+
+        <View
+            android:id="@+id/h55"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h50"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h56"
+            android:layout_width="5dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h51"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h57"
+            android:layout_width="5dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h52"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h58"
+            android:layout_width="5dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h53"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h59"
+            android:layout_width="5dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h54"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <View
+            android:id="@+id/h510"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/secondTv1"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="280dp"
+        android:layout_height="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="76dp"
+            android:text="  Left"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="68dp"
+            android:text=" Forward"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/secondBtn1"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Forward"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794"
+        app:rippleColor="#FFFFFF" />
+
+    <TableRow
+        android:layout_width="280dp"
+        android:layout_height="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654">
+
+        <TextView
+            android:id="@+id/distanceTv2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="64dp"
+            android:text="NA"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/distanceTv1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="56dp"
+            android:text="NA"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/distanceTv3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="NA"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/secondBtn2"
+        android:layout_width="60dp"
+        android:layout_height="110dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="L\ne\nf\nt"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/secondBtn4"
+        app:layout_constraintEnd_toStartOf="@+id/secondBtn3"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondBtn1"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <Button
+        android:id="@+id/secondBtn4"
+        android:layout_width="110dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Back"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondBtn1"
+        app:layout_constraintVertical_bias="0.597" />
+
+    <Button
+        android:id="@+id/secondBtn3"
+        android:layout_width="60dp"
+        android:layout_height="110dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="R\ni\ng\nh\nt"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/secondBtn4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondBtn1"
+        app:layout_constraintVertical_bias="0.466" />
+
+    <TextView
+        android:id="@+id/secondTv0"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="IP Adress:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <Button
+        android:id="@+id/testBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
